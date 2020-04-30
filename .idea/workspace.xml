@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4c2100c-21bc-473d-8136-ed62b0f1322c" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mediator/smartHouse.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="10.5" y="184.0">mediator.Alarm</node>
+                <node x="126.91390977443602" y="0.0">mediator.Mediator</node>
+                <node x="45.95676691729321" y="266.0">mediator.ConcreteMediator</node>
+                <node x="242.61390977443608" y="184.0">mediator.TV</node>
+                <node x="161.73320802005009" y="358.0">mediator.MainTest</node>
+                <node x="121.41390977443602" y="92.0">mediator.Colleague</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="mediator.TV" target="mediator.Mediator">
+                  <point x="22.66666666666667" y="-16.0" />
+                  <point x="299.28057644110277" y="164.0" />
+                  <point x="295.68045112781954" y="164.0" />
+                  <point x="295.68045112781954" y="62.0" />
+                  <point x="232.1996240601503" y="62.0" />
+                  <point x="38.28571428571428" y="16.0" />
+                </edge>
+                <edge source="mediator.MainTest" target="mediator.ConcreteMediator">
+                  <point x="-11.166666666666657" y="-16.0" />
+                  <point x="217.5665413533834" y="318.0" />
+                  <point x="156.9567669172932" y="318.0" />
+                  <point x="0.0" y="16.0" />
+                </edge>
+                <edge source="mediator.Colleague" target="mediator.Mediator">
+                  <point x="-48.33333333333334" y="-16.0" />
+                  <point x="145.58057644110266" y="72.0" />
+                  <point x="174.77105263157887" y="72.0" />
+                  <point x="-19.14285714285714" y="16.0" />
+                </edge>
+                <edge source="mediator.TV" target="mediator.Colleague">
+                  <point x="-22.66666666666667" y="-16.0" />
+                  <point x="253.9472431077694" y="164.0" />
+                  <point x="230.16390977443604" y="164.0" />
+                  <point x="36.25" y="16.0" />
+                </edge>
+                <edge source="mediator.MainTest" target="mediator.TV">
+                  <point x="11.166666666666686" y="-16.0" />
+                  <point x="239.89987468671677" y="318.0" />
+                  <point x="278.4567669172932" y="318.0" />
+                  <point x="278.4567669172932" y="246.0" />
+                  <point x="276.6139097744361" y="246.0" />
+                  <point x="0.0" y="16.0" />
+                </edge>
+                <edge source="mediator.Alarm" target="mediator.Mediator">
+                  <point x="-33.66666666666663" y="-16.0" />
+                  <point x="27.33333333333337" y="144.0" />
+                  <point x="60.99035087719295" y="144.0" />
+                  <point x="60.99035087719295" y="62.0" />
+                  <point x="155.62819548872176" y="62.0" />
+                  <point x="-38.28571428571428" y="16.0" />
+                </edge>
+                <edge source="mediator.ConcreteMediator" target="mediator.Colleague">
+                  <point x="0.0" y="-16.0" />
+                  <point x="156.9567669172932" y="246.0" />
+                  <point x="182.74035087719292" y="246.0" />
+                  <point x="-12.083333333333314" y="16.0" />
+                </edge>
+                <edge source="mediator.Mediator" target="mediator.Colleague">
+                  <point x="19.14285714285711" y="16.0" />
+                  <point x="213.05676691729315" y="72.0" />
+                  <point x="242.24724310776935" y="72.0" />
+                  <point x="48.33333333333334" y="-16.0" />
+                </edge>
+                <edge source="mediator.MainTest" target="mediator.Alarm">
+                  <point x="-33.5" y="-16.0" />
+                  <point x="195.23320802005009" y="328.0" />
+                  <point x="35.45676691729324" y="328.0" />
+                  <point x="35.45676691729324" y="246.0" />
+                  <point x="61.0" y="246.0" />
+                  <point x="0.0" y="16.0" />
+                </edge>
+                <edge source="mediator.Alarm" target="mediator.Colleague">
+                  <point x="0.0" y="-16.0" />
+                  <point x="61.0" y="154.0" />
+                  <point x="133.49724310776935" y="154.0" />
+                  <point x="-60.41666666666667" y="16.0" />
+                </edge>
+                <edge source="mediator.ConcreteMediator" target="mediator.Mediator">
+                  <point x="-88.80000000000004" y="-16.0" />
+                  <point x="68.15676691729317" y="236.0" />
+                  <point x="0.0" y="236.0" />
+                  <point x="0.0" y="52.0" />
+                  <point x="136.4853383458646" y="52.0" />
+                  <point x="-57.428571428571445" y="16.0" />
+                </edge>
+                <edge source="mediator.MainTest" target="mediator.Mediator">
+                  <point x="55.833333333333314" y="-16.0" />
+                  <point x="284.5665413533834" y="338.0" />
+                  <point x="321.1139097744361" y="338.0" />
+                  <point x="321.1139097744361" y="52.0" />
+                  <point x="251.34248120300748" y="52.0" />
+                  <point x="57.428571428571445" y="16.0" />
+                </edge>
+                <edge source="mediator.ConcreteMediator" target="mediator.Alarm">
+                  <point x="-44.400000000000034" y="-16.0" />
+                  <point x="112.55676691729317" y="246.0" />
+                  <point x="94.66666666666663" y="246.0" />
+                  <point x="33.66666666666663" y="16.0" />
+                </edge>
+                <edge source="mediator.ConcreteMediator" target="mediator.TV">
+                  <point x="88.80000000000001" y="-16.0" />
+                  <point x="245.75676691729322" y="246.0" />
+                  <point x="253.9472431077694" y="246.0" />
+                  <point x="-22.666666666666668" y="16.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="-349.8076923076923" y="164.61538461538458" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/visitor/visitor.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="0.0" y="246.0">visitor.ConcreteVisitor</node>
+                <node x="232.0" y="246.0">visitor.Employees</node>
+                <node x="94.81217948717946" y="0.0">visitor.Visitor</node>
+                <node x="65.27499999999998" y="82.0">visitor.Element</node>
+                <node x="176.69679487179485" y="164.0">visitor.Employee</node>
+                <node x="175.32179487179485" y="328.0">visitor.MainTest</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="visitor.ConcreteVisitor" target="visitor.Employee">
+                  <point x="70.33333333333331" y="-16.0" />
+                  <point x="175.83333333333331" y="221.0" />
+                  <point x="193.44679487179485" y="221.0" />
+                  <point x="-50.25" y="16.0" />
+                </edge>
+                <edge source="visitor.Employees" target="visitor.Employee">
+                  <point x="0.0" y="-16.0" />
+                  <point x="304.5" y="221.0" />
+                  <point x="293.94679487179485" y="221.0" />
+                  <point x="50.25" y="16.0" />
+                </edge>
+                <edge source="visitor.MainTest" target="visitor.ConcreteVisitor">
+                  <point x="-50.25" y="-16.0" />
+                  <point x="192.07179487179485" y="303.0" />
+                  <point x="105.5" y="303.0" />
+                  <point x="0.0" y="16.0" />
+                </edge>
+                <edge source="visitor.Employees" target="visitor.Visitor">
+                  <point x="48.33333333333333" y="-16.0" />
+                  <point x="352.8333333333333" y="221.0" />
+                  <point x="334.29166666666663" y="221.0" />
+                  <point x="334.29166666666663" y="52.0" />
+                  <point x="205.51217948717948" y="52.0" />
+                  <point x="49.20000000000002" y="16.0" />
+                </edge>
+                <edge source="visitor.Visitor" target="visitor.Element">
+                  <point x="0.0" y="16.0" />
+                  <point x="156.31217948717946" y="62.0" />
+                  <point x="157.52499999999998" y="62.0" />
+                  <point x="30.75" y="-16.0" />
+                </edge>
+                <edge source="visitor.ConcreteVisitor" target="visitor.Visitor">
+                  <point x="-70.33333333333331" y="-16.0" />
+                  <point x="35.166666666666686" y="221.0" />
+                  <point x="54.77499999999998" y="221.0" />
+                  <point x="54.77499999999998" y="52.0" />
+                  <point x="107.11217948717945" y="52.0" />
+                  <point x="-49.20000000000002" y="16.0" />
+                </edge>
+                <edge source="visitor.Employee" target="visitor.Visitor">
+                  <point x="33.49999999999999" y="-16.0" />
+                  <point x="277.19679487179485" y="62.0" />
+                  <point x="180.91217948717946" y="62.0" />
+                  <point x="24.599999999999994" y="16.0" />
+                </edge>
+                <edge source="visitor.MainTest" target="visitor.Employees">
+                  <point x="50.25" y="-16.0" />
+                  <point x="292.57179487179485" y="303.0" />
+                  <point x="340.75" y="303.0" />
+                  <point x="36.25" y="16.0" />
+                </edge>
+                <edge source="visitor.ConcreteVisitor" target="visitor.Element">
+                  <point x="0.0" y="-16.0" />
+                  <point x="105.5" y="221.0" />
+                  <point x="96.02499999999998" y="221.0" />
+                  <point x="-30.75" y="16.0" />
+                </edge>
+                <edge source="visitor.MainTest" target="visitor.Employee">
+                  <point x="-16.75" y="-16.0" />
+                  <point x="225.57179487179485" y="303.0" />
+                  <point x="221.5" y="303.0" />
+                  <point x="221.5" y="221.0" />
+                  <point x="226.94679487179485" y="221.0" />
+                  <point x="-16.75" y="16.0" />
+                </edge>
+                <edge source="visitor.Employee" target="visitor.Element">
+                  <point x="-33.5" y="-16.0" />
+                  <point x="210.19679487179485" y="139.0" />
+                  <point x="157.52499999999998" y="139.0" />
+                  <point x="30.75" y="16.0" />
+                </edge>
+                <edge source="visitor.Element" target="visitor.Visitor">
+                  <point x="-30.75" y="-16.0" />
+                  <point x="96.02499999999998" y="62.0" />
+                  <point x="131.71217948717947" y="62.0" />
+                  <point x="-24.599999999999994" y="16.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.1999999999999997" x="179.91666666666657" y="180.00000000000006" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Employees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <folding>
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Visitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mediator/Alarm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/visitor/ConcreteVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mediator/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mediator/ConcreteMediator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/vistor/Element.java" />
+        <option value="$PROJECT_DIR$/src/main/java/visitor/Element.java" />
+        <option value="$PROJECT_DIR$/src/main/java/visitor/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/visitor/ConcreteVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/visitor/Employees.java" />
+        <option value="$PROJECT_DIR$/src/main/java/visitor/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/visitor/MainTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/iterator/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mediator/Mediator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mediator/Alarm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mediator/Colleague.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mediator/TV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mediator/ConcreteMediator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mediator/MainTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-24" />
+    <option name="y" value="-19" />
+    <option name="width" value="1932" />
+    <option name="height" value="1045" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mediator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/mediator" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainTest (1)">
+    <configuration name="MainTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mediator.MainTest" />
+      <module name="DesignPattern.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="visitor.MainTest" />
+      <module name="DesignPattern.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainTest (1)" />
+        <item itemvalue="Application.MainTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4c2100c-21bc-473d-8136-ed62b0f1322c" name="Default Changelist" comment="" />
+      <created>1588148131691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588148131691</updated>
+      <workItem from="1588148136396" duration="5828000" />
+      <workItem from="1588213071796" duration="8079000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13907000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40520042" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40520042" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/util/Collections.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#131495#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/util/QNameMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="334" column="32" lean-forward="true" selection-start-line="334" selection-start-column="32" selection-end-line="334" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mediator/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mediator/Colleague.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mediator/TV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mediator/Alarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mediator/ConcreteMediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mediator/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mediator/smartHouse.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="10.5" y="184.0">mediator.Alarm</node>
+            <node x="126.91390977443602" y="0.0">mediator.Mediator</node>
+            <node x="45.95676691729321" y="266.0">mediator.ConcreteMediator</node>
+            <node x="242.61390977443608" y="184.0">mediator.TV</node>
+            <node x="161.73320802005009" y="358.0">mediator.MainTest</node>
+            <node x="121.41390977443602" y="92.0">mediator.Colleague</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mediator.TV" target="mediator.Mediator">
+              <point x="22.66666666666667" y="-16.0" />
+              <point x="299.28057644110277" y="164.0" />
+              <point x="295.68045112781954" y="164.0" />
+              <point x="295.68045112781954" y="62.0" />
+              <point x="232.1996240601503" y="62.0" />
+              <point x="38.28571428571428" y="16.0" />
+            </edge>
+            <edge source="mediator.MainTest" target="mediator.ConcreteMediator">
+              <point x="-11.166666666666657" y="-16.0" />
+              <point x="217.5665413533834" y="318.0" />
+              <point x="156.9567669172932" y="318.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="mediator.Colleague" target="mediator.Mediator">
+              <point x="-48.33333333333334" y="-16.0" />
+              <point x="145.58057644110266" y="72.0" />
+              <point x="174.77105263157887" y="72.0" />
+              <point x="-19.14285714285714" y="16.0" />
+            </edge>
+            <edge source="mediator.TV" target="mediator.Colleague">
+              <point x="-22.66666666666667" y="-16.0" />
+              <point x="253.9472431077694" y="164.0" />
+              <point x="230.16390977443604" y="164.0" />
+              <point x="36.25" y="16.0" />
+            </edge>
+            <edge source="mediator.MainTest" target="mediator.TV">
+              <point x="11.166666666666686" y="-16.0" />
+              <point x="239.89987468671677" y="318.0" />
+              <point x="278.4567669172932" y="318.0" />
+              <point x="278.4567669172932" y="246.0" />
+              <point x="276.6139097744361" y="246.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="mediator.Alarm" target="mediator.Mediator">
+              <point x="-33.66666666666663" y="-16.0" />
+              <point x="27.33333333333337" y="144.0" />
+              <point x="60.99035087719295" y="144.0" />
+              <point x="60.99035087719295" y="62.0" />
+              <point x="155.62819548872176" y="62.0" />
+              <point x="-38.28571428571428" y="16.0" />
+            </edge>
+            <edge source="mediator.ConcreteMediator" target="mediator.Colleague">
+              <point x="0.0" y="-16.0" />
+              <point x="156.9567669172932" y="246.0" />
+              <point x="182.74035087719292" y="246.0" />
+              <point x="-12.083333333333314" y="16.0" />
+            </edge>
+            <edge source="mediator.Mediator" target="mediator.Colleague">
+              <point x="19.14285714285711" y="16.0" />
+              <point x="213.05676691729315" y="72.0" />
+              <point x="242.24724310776935" y="72.0" />
+              <point x="48.33333333333334" y="-16.0" />
+            </edge>
+            <edge source="mediator.MainTest" target="mediator.Alarm">
+              <point x="-33.5" y="-16.0" />
+              <point x="195.23320802005009" y="328.0" />
+              <point x="35.45676691729324" y="328.0" />
+              <point x="35.45676691729324" y="246.0" />
+              <point x="61.0" y="246.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="mediator.Alarm" target="mediator.Colleague">
+              <point x="0.0" y="-16.0" />
+              <point x="61.0" y="154.0" />
+              <point x="133.49724310776935" y="154.0" />
+              <point x="-60.41666666666667" y="16.0" />
+            </edge>
+            <edge source="mediator.ConcreteMediator" target="mediator.Mediator">
+              <point x="-88.80000000000004" y="-16.0" />
+              <point x="68.15676691729317" y="236.0" />
+              <point x="0.0" y="236.0" />
+              <point x="0.0" y="52.0" />
+              <point x="136.4853383458646" y="52.0" />
+              <point x="-57.428571428571445" y="16.0" />
+            </edge>
+            <edge source="mediator.MainTest" target="mediator.Mediator">
+              <point x="55.833333333333314" y="-16.0" />
+              <point x="284.5665413533834" y="338.0" />
+              <point x="321.1139097744361" y="338.0" />
+              <point x="321.1139097744361" y="52.0" />
+              <point x="251.34248120300748" y="52.0" />
+              <point x="57.428571428571445" y="16.0" />
+            </edge>
+            <edge source="mediator.ConcreteMediator" target="mediator.Alarm">
+              <point x="-44.400000000000034" y="-16.0" />
+              <point x="112.55676691729317" y="246.0" />
+              <point x="94.66666666666663" y="246.0" />
+              <point x="33.66666666666663" y="16.0" />
+            </edge>
+            <edge source="mediator.ConcreteMediator" target="mediator.TV">
+              <point x="88.80000000000001" y="-16.0" />
+              <point x="245.75676691729322" y="246.0" />
+              <point x="253.9472431077694" y="246.0" />
+              <point x="-22.666666666666668" y="16.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="-349.8076923076923" y="164.61538461538458" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/visitor.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="0.0" y="246.0">visitor.ConcreteVisitor</node>
+            <node x="232.0" y="246.0">visitor.Employees</node>
+            <node x="94.81217948717946" y="0.0">visitor.Visitor</node>
+            <node x="65.27499999999998" y="82.0">visitor.Element</node>
+            <node x="176.69679487179485" y="164.0">visitor.Employee</node>
+            <node x="175.32179487179485" y="328.0">visitor.MainTest</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="visitor.ConcreteVisitor" target="visitor.Employee">
+              <point x="70.33333333333331" y="-16.0" />
+              <point x="175.83333333333331" y="221.0" />
+              <point x="193.44679487179485" y="221.0" />
+              <point x="-50.25" y="16.0" />
+            </edge>
+            <edge source="visitor.Employees" target="visitor.Employee">
+              <point x="0.0" y="-16.0" />
+              <point x="304.5" y="221.0" />
+              <point x="293.94679487179485" y="221.0" />
+              <point x="50.25" y="16.0" />
+            </edge>
+            <edge source="visitor.MainTest" target="visitor.ConcreteVisitor">
+              <point x="-50.25" y="-16.0" />
+              <point x="192.07179487179485" y="303.0" />
+              <point x="105.5" y="303.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="visitor.Employees" target="visitor.Visitor">
+              <point x="48.33333333333333" y="-16.0" />
+              <point x="352.8333333333333" y="221.0" />
+              <point x="334.29166666666663" y="221.0" />
+              <point x="334.29166666666663" y="52.0" />
+              <point x="205.51217948717948" y="52.0" />
+              <point x="49.20000000000002" y="16.0" />
+            </edge>
+            <edge source="visitor.Visitor" target="visitor.Element">
+              <point x="0.0" y="16.0" />
+              <point x="156.31217948717946" y="62.0" />
+              <point x="157.52499999999998" y="62.0" />
+              <point x="30.75" y="-16.0" />
+            </edge>
+            <edge source="visitor.ConcreteVisitor" target="visitor.Visitor">
+              <point x="-70.33333333333331" y="-16.0" />
+              <point x="35.166666666666686" y="221.0" />
+              <point x="54.77499999999998" y="221.0" />
+              <point x="54.77499999999998" y="52.0" />
+              <point x="107.11217948717945" y="52.0" />
+              <point x="-49.20000000000002" y="16.0" />
+            </edge>
+            <edge source="visitor.Employee" target="visitor.Visitor">
+              <point x="33.49999999999999" y="-16.0" />
+              <point x="277.19679487179485" y="62.0" />
+              <point x="180.91217948717946" y="62.0" />
+              <point x="24.599999999999994" y="16.0" />
+            </edge>
+            <edge source="visitor.MainTest" target="visitor.Employees">
+              <point x="50.25" y="-16.0" />
+              <point x="292.57179487179485" y="303.0" />
+              <point x="340.75" y="303.0" />
+              <point x="36.25" y="16.0" />
+            </edge>
+            <edge source="visitor.ConcreteVisitor" target="visitor.Element">
+              <point x="0.0" y="-16.0" />
+              <point x="105.5" y="221.0" />
+              <point x="96.02499999999998" y="221.0" />
+              <point x="-30.75" y="16.0" />
+            </edge>
+            <edge source="visitor.MainTest" target="visitor.Employee">
+              <point x="-16.75" y="-16.0" />
+              <point x="225.57179487179485" y="303.0" />
+              <point x="221.5" y="303.0" />
+              <point x="221.5" y="221.0" />
+              <point x="226.94679487179485" y="221.0" />
+              <point x="-16.75" y="16.0" />
+            </edge>
+            <edge source="visitor.Employee" target="visitor.Element">
+              <point x="-33.5" y="-16.0" />
+              <point x="210.19679487179485" y="139.0" />
+              <point x="157.52499999999998" y="139.0" />
+              <point x="30.75" y="16.0" />
+            </edge>
+            <edge source="visitor.Element" target="visitor.Visitor">
+              <point x="-30.75" y="-16.0" />
+              <point x="96.02499999999998" y="62.0" />
+              <point x="131.71217948717947" y="62.0" />
+              <point x="-24.599999999999994" y="16.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1999999999999997" x="179.91666666666657" y="180.00000000000006" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Employees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/ConcreteVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>main|DesignPattern</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
