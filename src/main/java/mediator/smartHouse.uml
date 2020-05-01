@@ -3,113 +3,37 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="10.5" y="184.0">mediator.Alarm</node>
-    <node x="126.91390977443601" y="0.0">mediator.Mediator</node>
-    <node x="45.95676691729324" y="266.0">mediator.ConcreteMediator</node>
-    <node x="242.61390977443608" y="184.0">mediator.TV</node>
-    <node x="161.73320802005009" y="358.0">mediator.MainTest</node>
-    <node x="121.41390977443601" y="92.0">mediator.Colleague</node>
+    <node x="184.58759398496244" y="232.0">mediator.Alarm</node>
+    <node x="10.5" y="232.0">mediator.TV</node>
+    <node x="23.836842105263173" y="454.0">mediator.MainTest</node>
+    <node x="52.19999999999999" y="0.0">mediator.Mediator</node>
+    <node x="47.69999999999999" y="116.0">mediator.Colleague</node>
+    <node x="50.7624060150376" y="338.0">mediator.ConcreteMediator</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="mediator.TV" target="mediator.Mediator">
-      <point x="22.66666666666667" y="-16.0" />
-      <point x="299.28057644110277" y="164.0" />
-      <point x="295.68045112781954" y="164.0" />
-      <point x="295.68045112781954" y="62.0" />
-      <point x="232.1996240601503" y="62.0" />
-      <point x="38.285714285714306" y="16.0" />
-    </edge>
-    <edge source="mediator.MainTest" target="mediator.ConcreteMediator">
-      <point x="-11.166666666666657" y="-16.0" />
-      <point x="217.56654135338346" y="318.0" />
-      <point x="156.95676691729324" y="318.0" />
-      <point x="0.0" y="16.0" />
-    </edge>
-    <edge source="mediator.Colleague" target="mediator.Mediator">
-      <point x="-48.33333333333334" y="-16.0" />
-      <point x="145.58057644110266" y="72.0" />
-      <point x="174.77105263157887" y="72.0" />
-      <point x="-19.14285714285714" y="16.0" />
-    </edge>
     <edge source="mediator.TV" target="mediator.Colleague">
-      <point x="-22.66666666666667" y="-16.0" />
-      <point x="253.9472431077694" y="164.0" />
-      <point x="230.163909774436" y="164.0" />
-      <point x="36.25" y="16.0" />
-    </edge>
-    <edge source="mediator.MainTest" target="mediator.TV">
-      <point x="11.166666666666686" y="-16.0" />
-      <point x="239.89987468671677" y="318.0" />
-      <point x="278.45676691729324" y="318.0" />
-      <point x="278.45676691729324" y="246.0" />
-      <point x="276.6139097744361" y="246.0" />
-      <point x="0.0" y="16.0" />
-    </edge>
-    <edge source="mediator.Alarm" target="mediator.Mediator">
-      <point x="-33.66666666666663" y="-16.0" />
-      <point x="27.33333333333337" y="144.0" />
-      <point x="60.99035087719295" y="144.0" />
-      <point x="60.99035087719295" y="62.0" />
-      <point x="155.62819548872173" y="62.0" />
-      <point x="-38.28571428571428" y="16.0" />
-    </edge>
-    <edge source="mediator.ConcreteMediator" target="mediator.Colleague">
-      <point x="-2.8421709430404007E-14" y="-16.0" />
-      <point x="156.9567669172932" y="246.0" />
-      <point x="182.7403508771929" y="246.0" />
-      <point x="-12.083333333333314" y="16.0" />
-    </edge>
-    <edge source="mediator.Mediator" target="mediator.Colleague">
-      <point x="19.14285714285714" y="16.0" />
-      <point x="213.05676691729315" y="72.0" />
-      <point x="242.24724310776935" y="72.0" />
-      <point x="48.33333333333334" y="-16.0" />
-    </edge>
-    <edge source="mediator.MainTest" target="mediator.Alarm">
-      <point x="-33.5" y="-16.0" />
-      <point x="195.23320802005009" y="328.0" />
-      <point x="35.45676691729324" y="328.0" />
-      <point x="35.45676691729324" y="246.0" />
-      <point x="61.0" y="246.0" />
-      <point x="0.0" y="16.0" />
+      <point x="22.0" y="-28.0" />
+      <point x="65.5" y="212.0" />
+      <point x="79.94999999999999" y="212.0" />
+      <point x="-32.25" y="28.0" />
     </edge>
     <edge source="mediator.Alarm" target="mediator.Colleague">
-      <point x="0.0" y="-16.0" />
-      <point x="61.0" y="154.0" />
-      <point x="133.49724310776935" y="154.0" />
-      <point x="-60.41666666666667" y="16.0" />
+      <point x="0.0" y="-28.0" />
+      <point x="231.08759398496244" y="202.0" />
+      <point x="165.95" y="202.0" />
+      <point x="53.75" y="28.0" />
     </edge>
     <edge source="mediator.ConcreteMediator" target="mediator.Mediator">
-      <point x="-88.80000000000007" y="-16.0" />
-      <point x="68.15676691729317" y="236.0" />
-      <point x="0.0" y="236.0" />
-      <point x="0.0" y="52.0" />
-      <point x="136.4853383458646" y="52.0" />
-      <point x="-57.428571428571416" y="16.0" />
-    </edge>
-    <edge source="mediator.MainTest" target="mediator.Mediator">
-      <point x="55.833333333333314" y="-16.0" />
-      <point x="284.5665413533834" y="338.0" />
-      <point x="321.1139097744361" y="338.0" />
-      <point x="321.1139097744361" y="52.0" />
-      <point x="251.34248120300742" y="52.0" />
-      <point x="57.428571428571416" y="16.0" />
-    </edge>
-    <edge source="mediator.ConcreteMediator" target="mediator.Alarm">
-      <point x="-44.40000000000006" y="-16.0" />
-      <point x="112.55676691729317" y="246.0" />
-      <point x="94.66666666666663" y="246.0" />
-      <point x="33.66666666666663" y="16.0" />
-    </edge>
-    <edge source="mediator.ConcreteMediator" target="mediator.TV">
-      <point x="88.79999999999998" y="-16.0" />
-      <point x="245.75676691729322" y="246.0" />
-      <point x="253.9472431077694" y="246.0" />
-      <point x="-22.666666666666668" y="16.0" />
+      <point x="76.80000000000001" y="-28.0" />
+      <point x="223.5624060150376" y="318.0" />
+      <point x="288.0875939849624" y="318.0" />
+      <point x="288.0875939849624" y="76.0" />
+      <point x="163.6285714285714" y="76.0" />
+      <point x="51.428571428571416" y="28.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="67.49999999999989" y="212.1538461538461" />
+  <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="415.84615384615375" y="368.15384615384613" />
   <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>
